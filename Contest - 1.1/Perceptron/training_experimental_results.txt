@@ -1,0 +1,30 @@
+x_trn = new2.drop(['PhoneId', 'class'], axis=1)
+y_trn = new2['class']
+acc, w, b = pcp.fit(x_trn, y_trn, 100000, 0.001, True, True)
+OUT::
+Perceptron Model Fitting Complete.
+The Maximum Accuracy obtained is equal to 79.17888563049853 %.
+The Maximum Accuracy was found at iteration : 99629
+0.7917888563049853
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+x_trn = new2.drop(['PhoneId', 'class'], axis=1)
+y_trn = new2['class']
+acc, w, b = pcp.fit(x_trn, y_trn, 1000000, 0.001, True, True)
+OUT::
+Perceptron Model Fitting Complete.
+The Maximum Accuracy obtained is equal to 83.28445747800586 %.
+The Maximum Accuracy was found at iteration : 952144
+0.8328445747800587
+Elapsed = 26.854230586687724 mins
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+x_trn = new.drop(['PhoneId', 'class'], axis=1)
+y_trn = new['class']
+acc, w, b = pcp.fit(x_trn, y_trn, 1000000, 0.0123, True, True)
+OUT::
+Perceptron Model Fitting Complete.
+The Maximum Accuracy obtained is equal to 84.1642228739003 %.
+The Maximum Accuracy was found at iteration : 708499
+0.841642228739003
+Elapsed = 29.431327263514202 mins

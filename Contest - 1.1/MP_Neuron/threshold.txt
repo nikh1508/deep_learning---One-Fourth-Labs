@@ -1,0 +1,30 @@
+Threshold:
+threshold = {'RAM':8.0, 'Capacity':1500, 'Processor_frequency':2.1, 'Screen to Body Ratio (calculated)':80.68,
+            'Height':136.85, 'Screen Size':6.26, 'Brand Rating':0.6, 'Core Rating':0.549, 'OS Rating':1.0}
+Acc : 0.8475073313782991
+
+threshold = {'RAM':8.0, 'Capacity':5300, 'Processor_frequency':2.1, 'Screen to Body Ratio (calculated)':80.68,
+            'Height':136.85, 'Screen Size':6.26, 'Brand Rating':0.6, 'Core Rating':0.549, 'OS Rating':1.0}
+Acc :0.8504398826979472
+
+Accuracy Improved to 0.8621700879765396
+RAM : 8.0
+Capacity : 5300
+Processor_frequency : 2.15
+Screen to Body Ratio (calculated) : 80.68
+Height : 136.5
+Screen Size : 6.26
+Brand Rating : 0.6
+Core Rating : 0.8333333333333334
+OS Rating : 1.0
+
+Accuracy Improved to 0.8651026392961877 with parameter equal to 3
+RAM : 8.0
+Capacity : 5300
+Processor_frequency : 2.15
+Screen to Body Ratio (calculated) : 80.68
+Height : 136.5
+Screen Size : 6.26
+Brand Rating : 0.6
+Core Rating : 0.549
+OS Rating : 0.7142857142857143
